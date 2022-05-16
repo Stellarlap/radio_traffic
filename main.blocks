@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="(uK=ctwkJu3?*P5g4L9@" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="4O+!b/8qP3md?)#x{giS"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="radio_set_group" id="t:/c3073Jox1VlTSUHCu"><value name="ID"><shadow type="math_number_minmax" id="e7J-%!k6zN:=ML`~D7`P"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">58</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id=":c44^cF,i|rXq;jvlw+Z" x="330" y="557"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="D_*WB1!UzToQ::yQ^om!"><value name="value"><shadow type="math_number" id="v6Uq,!Q#*n,SP-UxYQqx"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="48)$Y)~Jf6MdPsSEa0RF" disabled="true" x="8" y="584"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="*QnWTf]gZxBo$K,p=R)x" disabled="true"><value name="value"><shadow type="math_number" id="b;aIFz;~n9`XLYm6h7dQ" disabled="true"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
